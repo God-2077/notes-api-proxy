@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/*",
-      "destination": "https://https://n.pzyq.dpdns.org/:path*" // 转发到目标网站，:path* 保留原路径
+      "destination": "https://https://n.pzyq.dpdns.org/:path*"
     }
   ]
 }

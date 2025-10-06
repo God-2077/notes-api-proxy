@@ -1,8 +1,19 @@
 {
   "rewrites": [
+  {
+      "source": "/:path*/",
+      "destination": "https://n.pzyq.dpdns.org/:path*/"
+    },
     {
       "source": "/:path*",
       "destination": "https://n.pzyq.dpdns.org/:path*"
-    }
+    },
+    {
+      "source": "/",
+      "destination": "https://n.pzyq.dpdns.org/"
+    }{
+      "source": "/:path*",
+      "destination": "https://n.pzyq.dpdns.org/:path*"
+    },
   ]
 }

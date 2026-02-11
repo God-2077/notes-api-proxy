@@ -1,8 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://n.pzyq.dpdns.org/$1"
+      "destination": "https://n.pzyq.dpdns.org/:match",
+      "permanent": true
     }
   ]
 }
